@@ -2808,25 +2808,16 @@
 	@media screen and (max-width: 980px) {
 
 		#header {
-			top: 3em;
 			height: 44px;
 			line-height: 44px;
 		}
 
 	}
 
-	@media screen and (max-width: 736px) {
-
-		#header {
-			top: 2em;
-		}
-
-	}
 
 	@media screen and (max-width: 480px) {
 
 		#header {
-			top: 1em;
 			min-width: 320px;
 		}
 
