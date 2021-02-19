@@ -12,6 +12,8 @@
 		font: inherit;
 		vertical-align: baseline;
 		scroll-behavior: smooth;
+		max-width: 100%;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2922,6 +2924,15 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 }
 
+#one .img{
+  min-width:100%;
+  min-height:100%;
+  max-height:100%;
+  max-width:100%;
+  width: 6px;
+  height:auto;
+}
+
 /* Header */
 
 
@@ -2950,6 +2961,8 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		z-index: 10001;
 		position: fixed;
 		background-color: #5e7a87; /*cor da barra */
+
+
 	}
 
 		#header .inner {
@@ -3070,7 +3083,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #5385c1; /* cor menu tlm*/
+		background: #5e7a87; /* cor menu tlm*/
 		color: #d4e0ef;
 		height: 100%;
 		max-width: 80%;
