@@ -1916,6 +1916,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
+		padding-top: 1%;
 	}
 
 		.flex.flex-2 article {
@@ -2929,7 +2930,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		}
 
 			#header a:hover {
-				color: orange;
+				color: white;
 			}
 
 			#header a:last-child {
@@ -3144,9 +3145,8 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 /* Footer */
 
-#footer_text . h1{
-	text-align: center;
-	font-size: : 70%;
+#footer_text {
+	color: #5e7a87;
 }
 
 	#footer .inner {
