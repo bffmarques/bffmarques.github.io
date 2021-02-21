@@ -2836,9 +2836,12 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 #imagem_logo{
   display: block;
   width: 100%;
-  heigth: auto;
+  height: auto;
 }
 
+#imagem_logo .img{
+
+}
 
 @media only screen and (min-width: 700px){
 	#dados{
@@ -3185,7 +3188,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				padding: 10em 2em 8em 2em;
+				padding: 15em 2em 15em 2em;
 			}
 
 		}
@@ -3201,14 +3204,14 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		@media screen and (max-width: 736px) {
 
 			#banner {
-				padding: 8em 1.5em 6em 1.5em;
+				padding: 10em 1.5em 10em 1.5em;
 			}
 		}
 
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 1.5em 4em 1.5em;
+				padding: 10em 1.5em 9em 1.5em;
 			}
 
 		}
