@@ -1,10 +1,11 @@
 @charset "UTF-8";
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Raleway:100,300,600";
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
 
 
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -56,9 +57,19 @@
 
 /* Containers */
 
+
+
+
 	.container {
-		margin-left: auto;
-		margin-right: auto;
+		min-width: 100%;
+		width: 100%;
+		height: auto;
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+		text-align: center;
+		padding-left: 25%;
+		padding-right: 25%;
 	}
 
 	.container.\31 25\25 {
@@ -82,6 +93,7 @@
 	.container {
 		width: 80em;
 	}
+
 
 	@media screen and (max-width: 1680px) {
 
@@ -2285,6 +2297,7 @@
 					max-width: 100%;
 				}
 
+
 /* Icon */
 
 	.icon {
@@ -2802,8 +2815,11 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 	width: 100%;
 	height: auto;
 	text-align: center;
-	font-size: 
+	margin:0;
 }
+
+
+
 #templatemo_contact header h1 { color: #fff;}
 #templatemo_contact p, #templatemo_contact a  {
     line-height: 2.5em;
@@ -2812,14 +2828,37 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 
 #dados{
-    padding-bottom: 5%;
     text-align: center;
+    font-size: 20px;
+    padding-top: 7%;
 }
 
+
+@media only screen and (min-width: 700px){
+	#dados{
+		margin-top: -30%;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	#formu{
+		margin-top: -12%;
+	}
+}
 
 #social_redes{
-    padding-left: 4%;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
 }
+
+#social_redes .icons{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
 #templatemo_contact form .form-group { margin-top: 30px;}
 #templatemo_contact form input.form-control,
 #templatemo_contact form button.form-control,
@@ -2831,50 +2870,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 #templatemo_contact form textarea.form-control { min-height: 120px;}
 #templatemo_contact form .input-group-addon { border-bottom: 3px solid #fff;}
 #templatemo_contact form .input-group-addon i { color: #fff;}
-#templatemo_contact .social {
-    margin: 0px auto 40px auto;
-    text-align: center;
-    max-width: 500px;
-    width: 100%;
-}
-#templatemo_contact .social li {
-    margin-left: 0;
-    width: 25%;
-}
-#templatemo_contact .social a {
-    margin: 50px auto 4px auto;
-    background-color: #fff;
-    border-radius: 50px;
-    padding-top: 15px;
-    font-size: 40px;
-    line-height: 40px;
-    transition: .5s;
-    display: block;
-    height: 70px;
-    color: #fff;
-    width: 70px;
-}
-#templatemo_contact .social a:hover {
-    transform: rotate(360deg);
-    color: #223741;
-}
-#templatemo_contact .social .social-facebook { background: #4a6fb5;}
-#templatemo_contact .social .social-twitter { background: #28a9e0;}
-#templatemo_contact .social .social-youtube { background: #f86d70;}
-#templatemo_contact .social .social-instagram { background: #cab9a9;}
 
-
-@media (max-width: 400px) {
-    nav.main-menu {right: 10px;}
-    .show-menu {right: 10px;}
-    #templatemo_contact .social a {
-        padding: 18px;
-        font-size: 25px;
-        line-height: 20px;
-        height: 60px;
-        width: 60px;
-    }
-}
 
 
 .showcase .showcase-text {
@@ -2949,7 +2945,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 	#header {
 		color: white;
-		font-size: 110%;
+		font-size: 130%;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3161,7 +3157,7 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 /* Banner */
 
 	#banner {
-		padding: 20em 0 10em 0;
+		padding: 50em 0 10em 0;
 		background-image: url('../../images/img3.JPG');
 		background-size: cover;
 		background-position: top;
@@ -3274,3 +3270,266 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 		}
 
 	}
+
+
+
+      h1 {
+	      margin: 0 0 20px;
+	      font-weight: 400;
+	      color: #5e7a87;
+	      font-size: 150%;
+      }
+
+      #mensagem {
+      	margin: 0 0 5px;
+      	font-size: 590px
+      	color: #5e7a87;
+      }
+
+      .main-block {
+	      display: flex;
+	      flex-direction: column;
+	      justify-content: center;
+	      align-items: center;
+	      min-height: 100vh;
+	      background: #5e7a87;
+      }
+
+      form {
+	      padding: 25px;
+	      padding-right: 9%; 
+	      margin: 25px;
+	      background: transparent; 
+	     }
+
+      .fas {
+	      margin: 25px 10px 0;
+	      font-size: 72px;
+	      color: #fff;
+      }
+
+      .fa-envelope {
+      	transform: rotate(-20deg);
+      }
+
+      .fa-at , .fa-mail-bulk{
+      	transform: rotate(10deg);
+      }
+
+	  input, textarea {
+	      width: 100%;
+	      max-width: 100%;
+	      padding: 8px;
+	      margin-bottom: 20px;
+
+	      outline: none;
+      }
+
+      input::placeholder {
+      color: #666;
+      }
+
+      button {
+      width: 100%;
+      background: transparent;
+      color: red;
+      font-size: 15px;
+      font-weight: 600;
+      border: 1px solid white;
+      color: var(--inv);
+	  letter-spacing: 1.1rem;
+	  text-transform: uppercase;
+	  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);	
+	  cursor: pointer;
+	  user-select: none;
+      }
+
+      button:hover {
+      color: #206020;
+	  transition-delay: .5s;    
+      }   
+
+
+
+      .button:before, .button:after {
+	content: '';
+	position: absolute;	
+	transition: inherit;
+	z-index: -1;
+}
+
+.button:hover {
+	color: var(--def);
+	transition-delay: .5s;
+}
+
+.button:hover:before {
+	transition-delay: 0s;
+}
+
+.button:hover:after {
+	background: #206020;
+	transition-delay: .35s;
+}
+
+.button:before, 
+.button:after {
+	left: 0;
+	height: 0;
+	width: 100%;
+}
+
+.button:before {
+	bottom: 0;	
+	border: 1px solid var(--inv);
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.button:after {
+	top: 0;
+	height: 0;
+}
+
+.button:hover:before,
+.button:hover:after {
+	height: 100%;
+}
+
+
+
+
+
+
+
+      @media (min-width: 568px) {
+      .main-block {
+      	flex-direction: row;
+      }
+
+      .left-part, form {
+     	width: 50%;
+
+      }
+
+      .fa-envelope {
+	      margin-top: 0;
+	      margin-left: 20%;
+      }
+
+      .fa-at {
+	      margin-top: -10%;
+	      margin-left: 65%;
+      }
+
+      .fa-mail-bulk {
+	      margin-top: 2%;
+	      margin-left: 28%;
+      }
+      
+
+
+
+
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.instagram:before {
+  background-color: #ff0066;
+}
+.social-btns .btn.instagram .fa {
+  color: #cc00ff;
+}
+.social-btns .btn.whatsapp:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.whatsapp .fa {
+  color: #33cc33;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  transform: scale(1);
+}
+.social-btns {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
+
+@media (min-width: 568px) {
+      .social-btns {
+		  height: auto;
+		  width: 100%;
+		  margin: auto;
+		  font-size: 0;
+		  text-align: center;
+		}
+}
+
+
+@media (min-width: 568px) {
+      .social-btns .btn{
+		  display: inline-block;
+		  background-color: #fff;
+		  width: 90px;
+		  height: 90px;
+		  line-height: 90px;
+		  text-align: center;
+		  position: relative;
+		  overflow: hidden;
+		  border-radius: 28%;
+		  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+		  opacity: 0.99;
+		}
+}
