@@ -3321,7 +3321,6 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 	      max-width: 100%;
 	      padding: 8px;
 	      margin-bottom: 20px;
-
 	      outline: none;
       }
 
@@ -3352,10 +3351,10 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 
       .button:before, .button:after {
-	content: '';
-	position: absolute;	
-	transition: inherit;
-	z-index: -1;
+			content: '';
+			position: absolute;	
+			transition: inherit;
+			z-index: -1;
 }
 
 .button:hover {
