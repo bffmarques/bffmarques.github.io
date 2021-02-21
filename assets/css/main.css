@@ -2835,17 +2835,10 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 
 #imagem_logo{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 100%;
+  heigth: auto;
 }
 
-#imagem_logo .img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 @media only screen and (min-width: 700px){
 	#dados{
