@@ -2834,9 +2834,10 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
 }
 
 #imagem_logo{
-    text-align: center;
-    padding-top: 0;
-    margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 @media only screen and (min-width: 700px){
