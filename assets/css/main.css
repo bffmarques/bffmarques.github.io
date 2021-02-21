@@ -2833,14 +2833,14 @@ body, p, a, th, td, li, dl, .form-control { font: normal normal 300 18px/2em 'Fi
     padding-top: 7%;
 }
 
-#imagem_logo{
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-#imagem_logo .img{
-
+@media only screen and (min-width: 900px){
+	#imagem_logo{
+	  display: block;
+	  width: 50%;
+	  height: auto;
+	  margin-left: 10%;
+	  margin-right: -50%;
+	}
 }
 
 @media only screen and (min-width: 700px){
